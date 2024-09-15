@@ -39,19 +39,28 @@ Additionally, I evaluated the model performance using a confusion matrix, which 
 ### 7. 
 [The plot of positively detected heart disease with respect to respective values of each attribute](https://github.com/sooryanshi/heart_disease_diagnostics/blob/main/Screenshot%202024-09-15%20203024.png) give the following insights for each feature:
 ####         1. Chest pain:
-                The Chest Pain types 1, 2 and 3 , all show detected heart disease cases as more than 60% of total cases in the dataset , with type 1 having about 80% detected cases , type 2 and type 3 having a little above 70% and 60% positive cases each. This emphasizes that Chest Pain of most types correlates with Heart Disease.
+   The Chest Pain types 1, 2 and 3 , all show detected heart disease cases as more than 60% of total cases in the dataset , with type 1 having                  about 80% detected cases , type 2 and type 3 having a little above 70% and 60% positive cases each. This emphasizes that Chest Pain of most                  types correlates with Heart Disease.
 ####         2. Heart Rate Class:
-                The Heart Rate Classes 1 and 2 , i.e, normal and high heart rate, consisiting of values greater than 85% and 100% of MPHR , both showing about 60% positive detected cases for heart disease, suggesting a normal heart rate does not always correspond to good heart health.
+   The Heart Rate Classes 1 and 2 , i.e, normal and high heart rate, consisiting of values greater than 85% and 100% of MPHR , both showing                     about 60% positive detected cases for heart disease, suggesting a normal heart rate does not always correspond to good heart health.
 ####         3. Exercise Induced Angina(pain): 
-                The insight shows that cases with absent exercise induced angina has more detected cases(over 60%) of heart disease than those with exercise induced angina present(20%), suggesting it might not be a strong determinant of heart disease diagnostics since the results are quite counter-intuitive.
+   The insight shows that cases with absent exercise induced angina has more detected cases(over 60%) of heart disease than those with exercise                 induced angina present(20%), suggesting it might not be a strong determinant of heart disease diagnostics since the results are quite                        counter-intuitive.
 ####         4. Oldpeak Values:
-                The oldpeak categories 0, 1(0 to 1), 2(1 to 2) and 3(greater than 2) show percentage of heart disease cases decreasing from 0 to 3 , with a decrease of 10% cases from 0 to 2 and a decrease of 20% cases from 2 to 3, which is counter - intuitive to theory since higher oldpeak values correspond to higher risk pf Heart Disease. This suggests that oldpeak values are a weak determinant of heart disease diagnostics and have to be taken into account along with other attributes to give valuable insights.
+   The oldpeak categories 0, 1(0 to 1), 2(1 to 2) and 3(greater than 2) show percentage of heart disease cases decreasing from 0 to 3 , with a  
+   decrease of 10% cases from 0 to 2 and a decrease of 20% cases from 2 to 3, which is counter - intuitive to theory since higher oldpeak  
+   values correspond to higher risk pf Heart Disease. This suggests that oldpeak values are a weak determinant of heart disease diagnostics and                 have to be taken into account along with other attributes to give valuable insights.
 ####         5. CA Values:
-                The insight from the graph corresponds to the result that CA values of 0 and 4 correspond with higher cases of heart disease, 65% and 80% respectively , and values 1-3 showing heart disease present in around 20% of all cases with some fluctuations. This suggests that even though the value 0 in theory is interpreted and very low risk, in practice it might not be of much significance. The values 1-3 ranging from mild-moderate risk show not much significance in the insights of the data, whereas class 4 associated with severe risk in theory is as such in practice.
+   The insight from the graph corresponds to the result that CA values of 0 and 4 correspond with higher cases of heart disease, 65% and 80%   
+   respectively , and values 1-3 showing heart disease present in around 20% of all cases with some fluctuations. This suggests that even though the value 0 
+   in theory is interpreted and very low risk, in practice it might not be of much significance. The values 1-3 ranging from mild-moderate risk show not 
+   much significance in the insights of the data, whereas class 4 associated with severe risk in theory is as such in practice.
 ####         6. Thalessemia Class:
-                The bars from the graph suggest class 2 corresponding to over 70% detected heart disease cases of all, with classes 0,1 and 3 comparing to 40% , 30% and 20% cases repectively. This suggests that Reversible Defect correlates to more heart disease cases than rest types of defects. The value 0 which is interpreted as no defect has the second most cases in the graph, suggesting that a 'no defect' in thalessemia class may not be of significance in correctly diagnosing heart disease. It must be studied with a combination of other attributes to give meaningful insights.
+   The bars from the graph suggest class 2 corresponding to over 70% detected heart disease cases of all, with classes 0,1 and 3 comparing to 40% , 30% and     20% cases repectively. This suggests that Reversible Defect correlates to more heart disease cases than rest types of defects. The value 0 which is    
+   interpreted as no defect has the second most cases in the graph, suggesting that a 'no defect' in thalessemia class may not be of significance in 
+   correctly diagnosing heart disease. It must be studied with a combination of other attributes to give meaningful insights.
 ####         7. Slope Class:
-                The slope classes indicate that the highest number of heart disease diagnoses (touching 80%) were found in cases with slope class = 2 which indeed is associated with significant risk of heart disease. Slope classes 0 and 1 correspond to over 30% of cases diagnosed with heart disease. This suggests that though the class 2 compare significantly to heart disease, 0 and 1 might not be that reliable in determination of diagnosis.
+   The slope classes indicate that the highest number of heart disease diagnoses (touching 80%) were found in cases with slope class = 2 which indeed is 
+   associated with significant risk of heart disease. Slope classes 0 and 1 correspond to over 30% of cases diagnosed with heart disease. This suggests that 
+   though the class 2 compare significantly to heart disease, 0 and 1 might not be that reliable in determination of diagnosis.
 
 With this, I conclude the insights for the problem definition outlined above.
         
