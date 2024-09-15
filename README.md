@@ -6,7 +6,7 @@ We were Required to perform EDA on a Dataset containing details of heart disease
 
  
 ### Problem Definition
-    Objective: To analyze and derive insights from the features associated with heart disease through the application of various visualization techniques.
+   Objective: To analyze and derive insights from the features associated with heart disease through the application of various visualization techniques.
 
 [The complete code for this project is available here]( https://github.com/sooryanshi/heart_disease_diagnostics/blob/main/heart_disease_diagnostics_analysis.ipynb)
 
