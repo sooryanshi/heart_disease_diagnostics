@@ -1,5 +1,5 @@
 # Heart Disease Diagnostics Ananlysis
-## About Dataset
+
 ### Context
 We were Required to perform EDA on a Dataset containing details of heart disease diagnostics, with over a thousand rows of patient details. 
 [The Dataset can be viewed here:](https://github.com/sooryanshi/heart_disease_diagnostics/blob/main/heart_disease_data.csv)
