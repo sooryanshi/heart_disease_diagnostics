@@ -53,7 +53,7 @@ Additionally, I evaluated the model performance using a confusion matrix, which 
 ####         7. Slope Class:
                 The slope classes indicate that the highest number of heart disease diagnoses (touching 80%) were found in cases with slope class = 2 which indeed is associated with significant risk of heart disease. Slope classes 0 and 1 correspond to over 30% of cases diagnosed with heart disease. This suggests that though the class 2 compare significantly to heart disease, 0 and 1 might not be that reliable in determination of diagnosis.
 
-    With this, I conclude the insights for the problem definition outlined above.
+With this, I conclude the insights for the problem definition outlined above.
         
 
 ## Tools and Technologies
